@@ -1,0 +1,23 @@
+Make a readme file on how to use this.
+
+Make a readme for the CV and the resume
+
+Make the home page have the images, but the portfolio page have just the same project, but in a wall of text (easier to navigate) 
+
+Make a template HTML file so that changes to the header don't have to be made in every individual file. 
+
+Add in music section (need to have some good music that I record)
+
+Add in a blog section 
+
+Think about adding a footer with some contact and copyright details 
+
+Add separating tag filters or just headers that separate projets (academic, work, etc.) 
+
+Rename projects to be portfolio
+
+Redo the HTML so that the header text doesn't move around when you switch pages ( has to do with the size of the fonts apparently)
+
+Delete unnecessary scripts and css 
+
+Commonize page and image names

@@ -1,0 +1,205 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Twenty Seconds Resume/CV
+% LaTeX Template
+% Version 1.0 (14/7/16)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Carmine Spagnuolo (cspagnuolo@unisa.it) with major modifications by 
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[letterpaper]{twentysecondcv} % a4paper for A4
+
+%----------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+% If you don't need one or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
+
+\profilepic{krenik-matthew-climb.jpeg} % Profile picture
+
+\cvname{Matthew Krenik} % Your name
+\cvjobtitle{Engineer and Developer} % Job title/career
+
+\cvdate{US Citizen} % Date of birth
+\cvaddress{Boston, MA} % Short address/location, use \newline if more than 1 line is required
+\cvnumberphone{(+1) 469-878-5174} % Phone number
+\cvsite{mkrenik.github.io} % Personal website
+\cvmail{m-krenik@hotmail.com} % Email address
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	 ABOUT ME
+%----------------------------------------------------------------------------------------
+
+\aboutme{I am a recent Master's recipient from ETH Zurich with strong experience in hardware and software development and a theoretical background in data science and control systems. I'm passionate about designing innovative products at the intersection of hardware and software. In my free time, I enjoy playing jazz piano, basketball, mountain biking, hiking, rock climbing, and skiing. 
+}
+
+%----------------------------------------------------------------------------------------
+%	 SKILLS
+%----------------------------------------------------------------------------------------
+
+% Skill bar section, each skill must have a value between 0 an 6 (float)
+%\skills{{Data Science/5},{Control Systems/4.5},{Hardware Development/6},{Software Development/5.5}}
+
+%------------------------------------------------
+
+% Skill text section, each skill must have a value between 0 an 6
+%\skillstext{{lovely/4},{narcissistic/3}}
+
+\skillstext{
+	\textbf{Computer:}\linebreak	
+	Machine learning, Embedded systems, Computer vision, IoT, Linux development, VIM, Git, MS Office\linebreak
+	\textit{Advanced:}\hspace{0.1cm} C, C++, MATLAB\linebreak
+	\textit{Proficient:}\hspace{0.1cm} Java, C\# (Unity3D)\linebreak
+	\textit{Familiar:}\hspace{0.3cm} Python, Bash, HTML, CSS\linebreak 
+	\hspace*{1.65cm} Javascript, LaTeX\linebreak
+	\linebreak
+	\textbf{Electrical:}\linebreak
+	MCUs, Analog and Digital circuits, Bus Protocols (I2C, SPI, UART), Power electronics, Motor control, EDA Tools (OrCAD, Altium, Eagle), DSP, Comp. Architecture, Verilog, FPGAs\linebreak
+	\linebreak
+	\textbf{Mechanical:}\linebreak
+	Rapid Prototyping, 3D modeling (Solidworks), FEM (COMSOL), MIG Welding, Wood/metal shop eqpmt.  \linebreak
+\linebreak
+\textit{See website and CV for more details}
+}
+
+
+%----------------------------------------------------------------------------------------
+
+\makeprofile % Print the sidebar
+
+%----------------------------------------------------------------------------------------
+%	 INTERESTS
+%----------------------------------------------------------------------------------------
+
+%\section{interests}
+
+%Recent college graduate focusing on hardware, software, control systems, and data science
+
+%----------------------------------------------------------------------------------------
+%	 EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{education}
+
+\begin{twenty} % Environment for a list with descriptions
+	\twentyitem{2014-2016}{\textbf{ETH Zurich} (ranked \#9 worldwide by Times Higher Edu. 2016)}{}{M.Sc. in Robotics, Systems, and Controls \newline Summa Cum Laude - GPA: 5.76 / 6.0}
+	\twentyitem{2011-2013}{\textbf{UT Dallas}}{}{B.Sc. in Electrical Engineering \newline Summa Cum Laude - GPA: 3.99 / 4.0}
+	\twentyitem{2009-2011}{\textbf{Texas Academy of Math and Science}}{}{Advanced early college program at University of North Texas \newline GPA: 4.0 / 4.0}
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{work experience}
+
+\begin{twenty} % Environment for a list with descriptions
+	\twentyitem{2017}{\textbf{iRobot - Associate Software Engineer}}{Bedford, MA}{Develop features, debug, and test firmware and software for all robots in development. Responsible for path planning algorithms, sensor calibration, internal state machines, factory builds and the robot UI}
+	\twentyitem{2012-2015}{\textbf{Vertice Incorporated - Founder}}{Dallas, TX}{Invented a smart, position-aware hair clipper; filed several patents; developed prototypes, recruited and led student development teams; raised over \$60K; negotiated a license with a multinational corp.}
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+
+%----------------------------------------------------------------------------------------
+%	 PUBLICATIONS
+%----------------------------------------------------------------------------------------
+
+%%%%%%%%%TWENTY LIST SHORTITEMS%%%%%%%%%%%%%%
+%%% Two arguments: date; title/description %%%%%%%%%%
+\section{publications}
+ 
+
+\begin{twentyshort} % Environment for a short list with no descriptions
+	\twentyitemshort{2011-2015}{Eight U.S. patent apps. on an autonomous hair clipper design.}
+	\twentyitemshort{2014-2016}{Three U.S. patent apps. on a robotic bed design }
+	\twentyitemshort{2014}{IEEE IECON "Improved TOF determination algorithms for robust..."}
+	\twentyitemshort{2012}{ACS NM "Effects of supercritical CO\textsubscript{2} activation on the structure..."}
+	%\twentyitemshort{<dates>}{<title/description>}
+\end{twentyshort}
+
+%----------------------------------------------------------------------------------------
+%	 AWARDS
+%----------------------------------------------------------------------------------------
+
+\section{awards}
+
+\begin{twentyshort} % Environment for a short list with no descriptions
+	\twentyitemshort{2015}{Dropbox Prize (HackZurich); MixRadio Prize (HackJunction Helsinki)}
+	\twentyitemshort{2013}{Goldwater Fellowship (premier undergraduate research scholarship)}
+	\twentyitemshort{2011-2015}{McDermott Fellowship (full tuition + stipend at UT Dallas)}
+	\twentyitemshort{2010-2012}{NSF Research Experiences for Undergraduates Grant (awarded 3X)}
+	\twentyitemshort{2011}{Olympiad: Internat. Sustainability Finalist / Nat. Biology Semifinalist} 
+	\twentyitemshort{2010}{Eagle Scout}
+	%\twentyitemshort{<dates>}{<title/description>}
+\end{twentyshort}
+
+%----------------------------------------------------------------------------------------
+%	 Academic Projects
+%----------------------------------------------------------------------------------------
+
+\section{select projects}
+
+\begin{twentyshort} % Environment for a short list with no descriptions
+	\twentyitemshort{2016}{Designed/constructed bed with embedded sensors/actuators; mod-}
+	\twentyitemshort{}{eled bed/body system and analyzed optimal control techniques}
+	\twentyitemshort{2015}{Implemented visual, audio, and haptic feedback mechanisms on a}
+	\twentyitemshort{}{real-walking VR system and performed a user study}
+	%\twentyitemshort{<dates>}{<title/description>}
+\end{twentyshort}
+
+%----------------------------------------------------------------------------------------
+%	 OTHER EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{other experience}
+
+\begin{twenty} % Environment for a list with descriptions
+	\twentyitem{2016}{\textbf{Recurse Center - Software Developer}}{New York City, NY}{Improved SW skills in C/C++ and ML through various CS projects}
+	\twentyitem{2015}{\textbf{ABB - Software Development Intern}}{Ladenburg, Germany}{Developed four industrial use case demos on Oculus and Leap Motion}
+	\twentyitem{2014-2015}{\textbf{JetBrains - Product Ambassador}}{Zurich, Switzerland}{Organized events and code challenges to promote software products}
+	\twentyitem{2012}{\textbf{University of Maine - Research Assistant}}{Orono, ME}{Built a low cost harmonic radar system for detecting wood frogs}
+	\twentyitem{2011}{\textbf{Universidade de S\~{a}o Paulo - Research Assistant}}{S\~{a}o Paulo, Brazil}{Synthesized and tested electrochemical windows of ionic liquids}	
+	\twentyitem{2010}{\textbf{Carnegie Mellon University - Research Assistant}}{Pittsburgh, PA}{Built camera system for detecting drug delivery using Marangoni Flow}		
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 SECOND PAGE EXAMPLE
+%----------------------------------------------------------------------------------------
+
+%\newpage % Start a new page
+
+%\makeprofile % Print the sidebar
+
+%\section{other information}
+
+%\subsection{Review}
+
+%Alice approaches Wonderland as an anthropologist, but maintains a strong sense of noblesse oblige that comes with her class status. She has confidence in her social position, education, and the Victorian virtue of good manners. Alice has a feeling of entitlement, particularly when comparing herself to Mabel, whom she declares has a ``poky little house," and no toys. Additionally, she flaunts her limited information base with anyone who will listen and becomes increasingly obsessed with the importance of good manners as she deals with the rude creatures of Wonderland. Alice maintains a superior attitude and behaves with solicitous indulgence toward those she believes are less privileged.
+
+%\section{other information}
+
+%\subsection{Review}
+
+%Alice approaches Wonderland as an anthropologist, but maintains a strong sense of noblesse oblige that comes with her class status. She has confidence in her social position, education, and the Victorian virtue of good manners. Alice has a feeling of entitlement, particularly when comparing herself to Mabel, whom she declares has a ``poky little house," and no toys. Additionally, she flaunts her limited information base with anyone who will listen and becomes increasingly obsessed with the importance of good manners as she deals with the rude creatures of Wonderland. Alice maintains a superior attitude and behaves with solicitous indulgence toward those she believes are less privileged.
+
+%----------------------------------------------------------------------------------------
+
+\end{document} 

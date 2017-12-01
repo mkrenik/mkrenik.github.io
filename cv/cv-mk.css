@@ -1,0 +1,35 @@
+body {
+    margin: auto;
+    width: 7.5in;
+    padding: .5in;
+    padding-bottom: 0;
+    font-family: helvetica, Verdana, sans-serif;
+    color: #2E2B00;
+    background: #FBFBFB;
+}
+
+* {
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+    color: #474519;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#top {
+    text-align: center;
+}
+
+p, h1, h2, h3, h4, h5 {
+    margin-top:0; 
+    margin-bottom:0; 
+}
+
+li {
+    margin-top: .2em;
+}

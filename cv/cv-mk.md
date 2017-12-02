@@ -534,7 +534,7 @@ Programmed a speech processing pipeline in C on an Android phone that classifies
 
 <br>
 
-**Mouse control for Carpal Tunnel System patients** - Fall 2013  
+**Mouse control for Carpal Tunnel Syndrome patients** - Fall 2013  
 Embedded an inertial measurement unit into a brace for Carpal Tunnel System patients and used the data to control mouse funcionality on a desktop computer. Project completed as part of the Senior Design Project course at UT Dallas.  
 
 <br>

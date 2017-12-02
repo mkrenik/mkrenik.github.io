@@ -212,9 +212,9 @@ Organized a semester keynote talk for members of Phi Kappa Phi at the University
 
 <br>
 
-### Research Organization --- Vice President
+### Research Organization --- President
 
-#### August 2009 to May 2011
+#### August 2010 to May 2011
 
 ##### Denton, TX, USA
 

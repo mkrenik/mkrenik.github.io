@@ -67,11 +67,14 @@
 		<div id="fh5co-work">
 			<div class="row">
 				<div class="col-md-8">
-					<a href="images/Box.gif" class="image-popup img-portfolio-detail">
-						<img src="images/Box.gif" class="img-responsive">
+					<a href="images/bed-1.jpg" class="image-popup img-portfolio-detail">
+						<img src="images/bed-1.jpg" class="img-responsive">
 					</a>
 					<a href="images/Back.gif" class="image-popup img-portfolio-detail">
 						<img src="images/Back.gif" class="img-responsive">
+					</a>
+					<a href="images/bed-3.jpg" class="image-popup img-portfolio-detail">
+						<img src="images/bed-3.jpg" class="img-responsive">
 					</a>
 				</div>
 				<div class="col-md-4 fh5co-project-detail">
@@ -80,7 +83,13 @@
 					<span class="fh5co-project-sub">Spring 2016</span>
 					<br />
 					<p> 
-This was done as my Master's thesis at ETH Zurich under the advisorship of Professor Robert Riener and Dr. Francesco Crivelli. I was working independently on all aspects of the project.  Details for this project will be added on 12/4/17.
+I wrote my Master's thesis at ETH Zurich under the advisorship of Professor Robert Riener and Dr. Francesco Crivelli. Working independently, I created an adaptive bed that automatically adjusts its contour to improve spine position and comfort. This project was completed in two phases. The first phase involved building the proof of concept and was completed in Dallas, Texas. The second phase focused on simulating the system and optimizing the contour adjustment. 
+<br /><br />
+The proof of concept consists of 18 wooden slats, each connected to struts that can independently be adjusted up and down. When a user lies on the surface of the bed, force measurements are taken along their body and the struts are adjusted one at a time to create a bed contour that is customized for the body of the user. The aggregated force measurements can be used to classify the positoin in which a user is sleeping, and the bed adjustments can also influence this position. At the same time, biometric data can be taken from the user to judge the quality of the sleep the user is experiencing. 
+<br /><br />
+This technology can be used for people with severe back pain, bedridden patients who have a tendency to develop bed sores, or people who require spinal movement over the course of the night. It can also be useful for people interested in collecting comprehensive data about their sleeping habits. 
+<br /><br />
+I also modeled the bed in Simulink and MATLAB and developed a cost function to take into account different parameters for how the bed's contour should be changed. For example, large movements on individual slats at once can cause discomfort, despite it being the fastest way to change the contour of the bed. Adjusting many slats incrementally at the same time will slowly evolve the contour of the bed in a more comfortable way. Analyzing these trade offs was useful using a modeling tool. 
 </p>
 				</div>
 			</div>

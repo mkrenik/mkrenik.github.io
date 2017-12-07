@@ -70,21 +70,28 @@
 					<a href="images/vr-1.jpg" class="image-popup img-portfolio-detail">
 						<img src="images/vr-1.jpg" class="img-responsive">
 					</a>
+					<a href="images/vr-walk.gif" class="image-popup img-portfolio-detail">
+						<img src="images/vr-walk.gif" class="img-responsive">
+					</a>
 					<a href="images/vr-2.jpg" class="image-popup img-portfolio-detail">
+					<center>
 						<img src="images/vr-2.jpg" class="img-responsive">
+					</center>
 					</a>
 				</div>
 				<div class="col-md-4 fh5co-project-detail">
-					<h2 class="fh5co-project-title">Feedback for Real-Walking VR System</h2>
+					<h2 class="fh5co-project-title">Feedback for Real-Walking VR</h2>
 					<span class="fh5co-project-sub">ETH Zurich</span>
 					<span class="fh5co-project-sub">Fall 2015</span>
 					<br />
 					<p> 
-For my semester project at ETH Zurich, I worked on feedback mechanisms for real walking virtual reality systems under the advisorship of Professor Andreas Kunz and Markus Zank. Real-walking virtual reality is where your movements in a digital environment are enabled by real, physical walking. A upwards facing camera was attached to an Oculus Rift headset to pick up landmarks on the ceiling in a large room. Based upon which  visual landmarks were seen in the camera's frame, the user's headset could be localized. 
+For my semester project at ETH Zurich, I worked on feedback mechanisms for real walking virtual reality systems under the advisorship of Professor Andreas Kunz and Markus Zank. In real-walking virtual reality your movements in a digital environment are enabled by physically walking through a space. An upwards facing camera was attached to an Oculus Rift headset to pick up landmarks with known locations on the ceiling in a large room. Based upon which visual landmarks were seen in the camera's frame, the headset can be localized. So a user is given a backpack with a computer attached to it, a virtual reality headset, and a pair of headphones and is encouraged to explore the virtual world. 
 <br /><br />
-When exploring a virtual world while walking in a digital world, some issues exist. The first is that you can run into a physical wall. The virtual world might seem open and clear, but if an obstacle exists in the physical world, the user can run into it. Redirection algorithms were developed that allow a user to be steered away from physical obstacles unknowingly, by subtly changing the view frame of the virtual reality headset to induce a user to walk in arcs instead of in straight lines. 
+When exploring a virtual world while walking in a digital world, some issues exist. The first is that you can run into a physical wall. The virtual world might seem open and clear, but if an obstacle exists in the physical world, the user can run into it. Redirection algorithms were developed that allow a user to be steered away from physical obstacles unknowingly. This is done by subtly changing the view frame of the headset to induce a user to walk in arcs instead of in straight lines and to scale the rotations that a user naturally makes into larger or smaller rotations. 
 <br /><br />
-Another problem that exists is that users can walk through digital walls, thus ignoring any virtual maps or objectives that might exist. This can cause scenes to become very difficult to render because it is difficult to control a user's movement. I developed feedback mechanisms and algorithms to make deincentivized, unpleasant, or even impossible for users to walk through digital walls. I created a user study to test out these mechanisms. 
+Another problem that exists is that users can walk through digital walls, thus ignoring any virtual maps or objectives that might exist. This can cause scenes to become very difficult to render and design, since a uesr's movements can't be constrained. I developed feedback mechanisms and algorithms to deincentivize, make it unpleasant, or even make it impossible for users to walk through digital walls. Some of these mechanisms are very simple, like flashing a warning or turning the screen black. Others are very complex, such as teleporting the user outside of the digital wall and facing the opposite direction. It is also important to distinguish if the wall collision was intentional or accidental. 
+<br /><br />
+I created a user study to test out these mechanisms. The user study put users in scenarios where they would accidentally or intentially collide with digital walls and receive an appropriate feedback response. Through postering campus with some advertisements and reaching out to friends, I had 30 users test out the various feedback mechanisms I designed and I was able to quantify which mechanisms worked best in various scenarios. 
 </p>
 				</div>
 			</div>

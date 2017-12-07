@@ -67,8 +67,8 @@
 		<div id="fh5co-work">
 			<div class="row">
 				<div class="col-md-8">
-					<a href="images/motion-1.jpg" class="image-popup img-portfolio-detail">
-						<img src="images/motion-1.jpg" class="img-responsive">
+					<a href="images/motion-1.png" class="image-popup img-portfolio-detail">
+						<img src="images/motion-1.png" class="img-responsive">
 					</a>
 					<a href="images/motion-2.jpg" class="image-popup img-portfolio-detail">
 						<img src="images/motion-2.jpg" class="img-responsive">
@@ -80,7 +80,7 @@
 					<span class="fh5co-project-sub">Spring 2015</span>
 					<br />
 					<p> 
-This was done as a semester project for the 3D Photography course at ETH Zurich. Our team used the ffmpeg library to extract motion vectors from videos of stationary scenes and a moving camera. Then we used these motion vectors to identify point correspondences between frames and create a sparse 3D reconstruction using the Structure from Motion algorithm. 
+This project was completed as a semester capstone for the 3D Photography course at ETH Zurich. Video compression algorithms use motion vectors to identify where groups of pixels (macroblocks) move from frame to frame. The motion vectors signify point correspondences between frames when the camera or the scene is moving. As described by the Structure from Motion algorithm, point correspondences are required for 3D recontruction -- highly salient points are identified in each image, these points are matched to corresponding points in the other images, the locations of the cameras are calculated, and a dense reconstruction fills in the rest of the points. Instead of matching point correspondences between images, the idea of this project was to use motion vectors from a video to create point correspondences instead. Our team used the ffmpeg library to extract motion vectors from videos of stationary scenes and a moving camera. Then we used these motion vectors to identify point correspondences between frames and create a 3D reconstruction. Unfortunately, our project was unsuccessful and our reconstruction was extremely sparse.
 </p>
 				</div>
 			</div>

@@ -1,8 +1,14 @@
+Top Priorities:
+Text on Speech processing page
+Decide what else to put on hair cutting page (either add more or make it more obvious disclosure has been withheld)
+Give more info on what I was specifically responsible for (all pages). 
+Add awards and publications and grades (if top marks) for each project on each project page. 
+
+Other: 
+
 Make a readme file on how to use this.
 
 Make a readme for the CV and the resume
-
-Make the home page have the images, but the portfolio page have just the same project, but in a wall of text (easier to navigate) 
 
 Make a template HTML file so that changes to the header don't have to be made in every individual file. 
 
@@ -10,22 +16,15 @@ Add in music section (need to have some good music that I record)
 
 Add in library section with books that I have read (since a given date) with summary and review
 
-Add in a blog section.. but would need to figure out stuff I want to share and write blog posts about.
-
 Think about adding a footer with some contact and copyright details 
-
-Add separating tag filters or just headers that separate projets (academic, work, etc.) 
-
-Rename projects to be portfolio
 
 Redo the HTML so that the header text doesn't move around when you switch pages ( has to do with the size of the fonts apparently)
 
-Delete unnecessary scripts and css 
+Delete unnecessary scripts and css (and maybe loader.gif)
 
-Commonize page and image names
+Add in HTML and CSS so it can adapt to different sized devices
 
-Make the images on project pages formatted in a more professional and adaptable way (or find large, professional pictures for every project). 
+Redo the HTML so that when you zoom in on one web page, it keeps that zoom as you navigate teh entire site (instead of different pages having different levels of zoom).
 
-Text on:  speech processing
-Give more info on what I was specifically responsible for (all pages)
 Consider adding ABB project. 
+Consider adding "Recurse Center" projects. 

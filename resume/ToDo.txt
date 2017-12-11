@@ -1,0 +1,1 @@
+- Create a Make file that generates a resume with the correct title and date information (instead of having to use pdflatex) 

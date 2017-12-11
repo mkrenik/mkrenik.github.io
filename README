@@ -1,0 +1,5 @@
+This is the directory for the portfolio. It uses the CV and Resume from subdirectories, but the README and ToDo.txt files are kept separate from those of the website. 
+
+This template was found online and then hacked heavily to create the level of simplicity that was desired. As such, there are a lot of features that are missing that are listed in ToDo.txt (non-exhaustive). 
+
+To get this website online, use 'git push' and it will add the files to the github repository where the website is hosted. 

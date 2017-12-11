@@ -1,0 +1,1 @@
+- Instead of using markdown and HTML, consider using a LaTeX template and create a PDF (more standard and professional). Need to make sure that page splits are done in the correct location (never splits an entry). 

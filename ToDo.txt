@@ -4,11 +4,15 @@ Decide what else to put on hair cutting page (either add more or make it more ob
 Give more info on what I was specifically responsible for (all pages). 
 Add awards and publications and grades (if top marks) for each project on each project page. 
 
+Medium Priority:
+Consider adding ABB project (do I have decent pictures?). 
+Consider adding "Recurse Center" projects (need to code them up).
+Consider adding the RSE zapper
+Consider adding the PyBot 
+
 Other: 
 
 Make a readme file on how to use this.
-
-Make a readme for the CV and the resume
 
 Make a template HTML file so that changes to the header don't have to be made in every individual file. 
 
@@ -26,5 +30,4 @@ Add in HTML and CSS so it can adapt to different sized devices
 
 Redo the HTML so that when you zoom in on one web page, it keeps that zoom as you navigate teh entire site (instead of different pages having different levels of zoom).
 
-Consider adding ABB project. 
-Consider adding "Recurse Center" projects. 
+

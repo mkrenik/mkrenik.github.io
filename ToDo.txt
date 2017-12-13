@@ -6,13 +6,11 @@ Add awards and publications and grades (if top marks) for each project on each p
 
 Medium Priority:
 Consider adding ABB project (do I have decent pictures?). 
-Consider adding "Recurse Center" projects (need to code them up).
-Consider adding the RSE zapper
-Consider adding the PyBot 
+Consider adding "Recurse Center" projects 
+Consider adding the RSE fish zapper (after significant contribution)
+Consider adding the PyBot (after significant contribution)
 
 Other: 
-
-Make a readme file on how to use this.
 
 Make a template HTML file so that changes to the header don't have to be made in every individual file. 
 

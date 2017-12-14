@@ -86,13 +86,21 @@
 					<span class="fh5co-project-sub">Spring 2016</span>
 					<br />
 					<p> 
-I wrote my Master's thesis at ETH Zurich under the advisorship of Professor Robert Riener and Dr. Francesco Crivelli. Working independently, I created an adaptive bed that automatically adjusts its contour to improve spine position and comfort. This project was completed in two phases. The first phase involved building the proof of concept and was completed in Dallas, Texas. The second phase focused on simulating the system and optimizing the contour adjustment algorithm. 
+
+I created an adaptive bed that automatically adjusts its contour to improve spine position and comfort for a user throughout the night. When a user lies on the surface of the bed, force measurements are taken along their body and the struts are indendently adjusted to create a bed contour that is customized for the body of the user. The aggregated force measurements can be used to classify the position in which a user is sleeping. At the same time, biometric data can be taken from the user to judge the quality of the sleep the user is experiencing. 
 <br /><br />
-The proof of concept consists of 18 wooden slats, each connected to struts that can independently be adjusted up and down. When a user lies on the surface of the bed, force measurements are taken along their body and the struts are adjusted one at a time to create a bed contour that is customized for the body of the user. The aggregated force measurements can be used to classify the position in which a user is sleeping. At the same time, biometric data can be taken from the user to judge the quality of the sleep the user is experiencing. 
+I also modeled the bed in Simulink and MATLAB and developed a cost function to take into account different parameters for how the bed's contour should be changed. For example, large movements on individual slats at once can cause discomfort, despite it being the fastest way to change the contour of the bed. Adjusting many slats incrementally at the same time will slowly evolve the contour of the bed in a more comfortable way. The system model helped analyze these tradeoffs and determine an optimal control algorithm given a set of preference parameters from the user
+<br /><br />
+The bed frame was designed to be modular so that all components could fit in an average 4-door sedan, which solves a large issue in transporting beds. Also, since the contour ideally fits a user, a much smaller padding can be used and the bed can still feel comfortable, which reduces the environmental impact compared to a conventional mattress and box spring. 
 <br /><br />
 This technology can be used for people with severe back pain, bedridden patients who have a tendency to develop bed sores, or people who require spinal movement over the course of the night. It can also be useful for people interested in collecting comprehensive data about their sleeping habits. 
 <br /><br />
-I also modeled the bed in Simulink and MATLAB and developed a cost function to take into account different parameters for how the bed's contour should be changed. For example, large movements on individual slats at once can cause discomfort, despite it being the fastest way to change the contour of the bed. Adjusting many slats incrementally at the same time will slowly evolve the contour of the bed in a more comfortable way. Analyzing these trade offs was done using my system model.
+This project was done under the advisorship of Professor Robert Riener and Dr. Francesco Crivelli to complete the requirements of my Master's thesis. I was solely responsible for all of the design, development, and analysis of both the proof of concept and the model. 
+<br /><br />
+<b>Publications and Recognition</b>
+<li>M. Krenik. “Automated Sleep Support Design and Analysis”. Awarded top marks at Master's Thesis Defense. Sensory Motor Systems Lab at ETH Zurich. Zurich, Switzerland, 2016.</li>
+<li>Three U.S. patent applications in various stages of prosecution.</li>
+
 </p>
 				</div>
 			</div>

@@ -36,7 +36,7 @@ I am a recent Master's recipient from ETH Zurich with strong experience in hardw
 
 ##### Zurich, Switzerland  
 
-Distinguished graduate  
+Graduated with highest distinction  
 GPA: 5.76 / 6.0  
 Thesis: Automated Sleep Support Design and Analysis  
 *For Reference, ETH Zurich is ranked #9 worldwide by Times Higher Education*  

@@ -4,12 +4,13 @@ Decide what else to put on hair cutting page (either add more or make it more ob
 Give more info on what I was specifically responsible for (all pages). 
 Highlight of some kind on images of "best projects" in the index
 Remove all instances of "recent ETH Graduate" from resumes, CV, and About Me
+More active and results oriented language in project descriptions
 
 Medium Priority:
 Consider adding ABB project (do I have decent pictures?). 
 Consider adding "Recurse Center" projects 
-Consider adding the RSE fish zapper (after significant contribution)
-Consider adding the PyBot (after significant contribution)
+Consider adding the RSE fish zapper 
+Consider adding the PyBot 
 
 Other: 
 

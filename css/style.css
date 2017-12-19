@@ -19,6 +19,14 @@ body {
   background: #e8e8e8;
 }
 
+#project-highlight {
+display: inline-block;
+margin: 0em; padding: 0em;
+background-image: url(left.png), url(right.png);
+background-repeat: no-repeat, no-repeat, repeat-x;
+background-position: center, center;
+} 
+
 #page {
   position: relative;
   overflow-x: hidden;

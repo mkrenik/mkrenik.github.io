@@ -3,6 +3,9 @@ Text on Speech processing page
 Decide what else to put on hair cutting page (either add more or make it more obvious disclosure has been withheld)
 Give more info on what I was specifically responsible for (all pages). 
 Highlight of some kind on images of "best projects" in the index
+		- two options:
+				- Edit specific projects in Gimp so that they have an overlay and the image just includes that (need to get sizing right, hard to change which projects have focus)
+				- Add in a mask layer that serves as the link with the text, but also bottom image needs to disappear too... 
 Remove all instances of "recent ETH Graduate" from resumes, CV, and About Me
 More active and results oriented language in project descriptions
 

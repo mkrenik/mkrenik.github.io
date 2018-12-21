@@ -3,3 +3,27 @@ This is the directory for the portfolio. It uses the CV and Resume from subdirec
 This template was found online and then hacked heavily to create the level of simplicity that was desired. As such, there are a lot of features that are missing that are listed in ToDo.txt (non-exhaustive). 
 
 To get this website online, use 'git push' and it will add the files to the github repository where the website is hosted. 
+
+
+Resume
+1. Resume is currently done with LaTeX. Make desired changes, then use pdflatex command to build it. Look at the changes using evince. 
+2. Once changes look good, go through the steps on how to build the website.
+
+CV
+1. CV is currently done in Markdown and is converted into HTML. Make the desired changes and then type in 'make' to build them into the HTML. View the changes with firefox. 
+2. Once changes look good, go through the steps on how to build the website.
+
+ Note it is on a list of goals to change the CV into a LaTeX template. 
+
+
+
+To build changes into the Hugo website:
+1. Look at 'hugo server --watch' and make sure that it looks good on the localhost:1313 
+2. Clear out the public folder with 'rm -r *'
+3. Go back to the parent directory and build the hugo site with 'hugo' command. 'git add', 'git commit -m', and 'git push' the changes
+4. Go back to the public folder and Git commit and git push the changes. 
+ The public folder is the folder that is synced to the GitHub Pages account. 
+
+To add blog posts or projects:
+1. Create a new file in 'content/post' or 'content/project'
+2. If it is a project, also need to put an image in 'static/img' and create a github repository for the project. Then create a Github pages page for that specific repository (use the standard template) and use that link as an external link for the project post. 

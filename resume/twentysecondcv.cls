@@ -51,7 +51,7 @@
 
 \newlength\imagewidth
 \newlength\imagescale
-\pgfmathsetlength{\imagewidth}{5cm}
+\pgfmathsetlength{\imagewidth}{6cm}
 \pgfmathsetlength{\imagescale}{\imagewidth/600}
 
 \newcommand{\profilesection}[2]{\vspace{8pt}{\color{black!80} \huge #1 \rule[0.15\baselineskip]{#2}{1pt}}}
@@ -92,16 +92,17 @@
 %----------------------------------------------------------------------------------------
 
 \newcommand{\makeprofile}{
+
 	\begin{tikzpicture}[remember picture,overlay]
    		\node [rectangle, fill=sidecolor, anchor=north, minimum width=9cm, minimum height=\paperheight+1cm] (box) at (-5cm,0.5cm){};
 	\end{tikzpicture}
 
 	%------------------------------------------------
 
-	\begin{textblock}{6}(0.5, 0.2)
+	\begin{textblock}{6}(1, 0.2)
 			
 		%------------------------------------------------
-		
+		\vspace{16pt}
 		\begin{center}
 			\begin{tikzpicture}[x=\imagescale,y=-\imagescale]
 				\clip (600/2, 567/2) circle (567/2);
@@ -110,7 +111,7 @@
 		\end{center}
 
 		%------------------------------------------------
-
+		\vspace{6pt}
 		{\Huge\color{mainblue}\cvname}
 
 		%------------------------------------------------
@@ -118,7 +119,7 @@
 		{\Large\color{black!80}\cvjobtitle}
 
 		%------------------------------------------------
-
+		\vspace{6pt}
 		\renewcommand{\arraystretch}{1.6}
 		\begin{tabular}{p{0.5cm} @{\hskip 0.5cm}p{5cm}}
 			\ifthenelse{\equal{\cvdate}{}}{}{\textsc{\Large\icon{\Info}} & \cvdate\\}
@@ -129,7 +130,7 @@
 		\end{tabular}
 
 		%------------------------------------------------
-
+		\vspace{6pt}
 		\profilesection{About me}{2.6cm}
 			
 		\begin{flushleft}
@@ -137,7 +138,7 @@
 		\end{flushleft}
 
 		%------------------------------------------------
-
+		\vspace{6pt}
 		\profilesection{Skills}{4cm}
 
 		\skills
@@ -185,6 +186,7 @@
 	{%
 		\color{gray}%
 		\Large\sectioncolor{#1}%
+		\vspace{4pt}
 	}
 }
 
@@ -240,6 +242,6 @@
 %	 MARGINS AND LINKS
 %----------------------------------------------------------------------------------------
 
-\RequirePackage[left=7.6cm,top=-0.1cm,right=1cm,bottom=-0.1cm,nohead,nofoot]{geometry}
+\RequirePackage[left=8.1cm,top=-0.1cm,right=1cm,bottom=-0.1cm,nohead,nofoot]{geometry}
 
 \RequirePackage[hidelinks]{hyperref}

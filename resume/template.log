@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.24)  23 FEB 2020 22:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.24)  24 FEB 2020 19:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -507,9 +507,27 @@ Package: marvosym 2011/07/20 v2.2 Martin Vogel's Symbols font definitions
 (/usr/share/texlive/texmf-dist/tex/latex/parskip/parskip.sty
 Package: parskip 2001/04/09 non-zero parskip adjustments
 )
-\imagewidth=\skip57
-\imagescale=\skip58
-\c@colorCounter=\count108
+(/usr/share/texlive/texmf-dist/tex/latex/ifsym/ifsym.sty
+Package: ifsym 2000/04/18 I.Kloeckl
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count108
+\calc@Bcount=\count109
+\calc@Adimen=\dimen159
+\calc@Bdimen=\dimen160
+\calc@Askip=\skip57
+\calc@Bskip=\skip58
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count110
+\calc@Cskip=\skip59
+)
+\c@ifsymcnt=\count111
+)
+\imagewidth=\skip60
+\imagescale=\skip61
+\c@colorCounter=\count112
 
 (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
@@ -521,17 +539,17 @@ Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-\Gm@cnth=\count109
-\Gm@cntv=\count110
-\c@Gm@tempcnt=\count111
-\Gm@bindingoffset=\dimen159
-\Gm@wd@mp=\dimen160
-\Gm@odd@mp=\dimen161
-\Gm@even@mp=\dimen162
-\Gm@layoutwidth=\dimen163
-\Gm@layoutheight=\dimen164
-\Gm@layouthoffset=\dimen165
-\Gm@layoutvoffset=\dimen166
+\Gm@cnth=\count113
+\Gm@cntv=\count114
+\c@Gm@tempcnt=\count115
+\Gm@bindingoffset=\dimen161
+\Gm@wd@mp=\dimen162
+\Gm@odd@mp=\dimen163
+\Gm@even@mp=\dimen164
+\Gm@layoutwidth=\dimen165
+\Gm@layoutheight=\dimen166
+\Gm@layouthoffset=\dimen167
+\Gm@layoutvoffset=\dimen168
 \Gm@dimlist=\toks29
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
@@ -584,14 +602,14 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
-\@linkdim=\dimen167
-\Hy@linkcounter=\count112
-\Hy@pagecounter=\count113
+\@linkdim=\dimen169
+\Hy@linkcounter=\count116
+\Hy@pagecounter=\count117
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count114
+\Hy@SavedSpaceFactor=\count118
 
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -603,17 +621,17 @@ Package hyperref Info: Plain pages OFF on input line 4524.
 Package hyperref Info: Backreferencing OFF on input line 4529.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4762.
-\c@Hy@tempcnt=\count115
+\c@Hy@tempcnt=\count119
 
 (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5115.
-\XeTeXLinkMargin=\dimen168
-\Fld@menulength=\count116
-\Field@Width=\dimen169
-\Fld@charsize=\dimen170
+\XeTeXLinkMargin=\dimen170
+\Fld@menulength=\count120
+\Field@Width=\dimen171
+\Fld@charsize=\dimen172
 Package hyperref Info: Hyper figures OFF on input line 6369.
 Package hyperref Info: Link nesting OFF on input line 6374.
 Package hyperref Info: Hyper index ON on input line 6377.
@@ -623,23 +641,23 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6394.
 Package hyperref Info: PDF/A mode OFF on input line 6399.
 LaTeX Info: Redefining \ref on input line 6439.
 LaTeX Info: Redefining \pageref on input line 6443.
-\Hy@abspage=\count117
-\c@Item=\count118
-\c@Hfootnote=\count119
+\Hy@abspage=\count121
+\c@Item=\count122
+\c@Hfootnote=\count123
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
-\Fld@listcount=\count120
-\c@bookmark@seq@number=\count121
+\Fld@listcount=\count124
+\c@bookmark@seq@number=\count125
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip59
+\Hy@SectionHShift=\skip62
 )
 (./template.aux)
 \openout1 = `template.aux'.
@@ -673,22 +691,22 @@ File: T1ClearSans-LF.fd 2014/03/14 (autoinst) Font definitions for T1/ClearSans
 )
 LaTeX Font Info:    Font shape `T1/ClearSans-LF/m/n' will be
 (Font)              scaled to size 10.0pt on input line 43.
-\c@mv@tabular=\count122
-\c@mv@boldtabular=\count123
+\c@mv@tabular=\count126
+\c@mv@boldtabular=\count127
 
 ABD: EveryShipout initializing macros
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count124
-\scratchdimen=\dimen171
+\scratchcounter=\count128
+\scratchdimen=\dimen173
 \scratchbox=\box39
-\nofMPsegments=\count125
-\nofMParguments=\count126
+\nofMPsegments=\count129
+\nofMParguments=\count130
 \everyMPshowfont=\toks30
-\MPscratchCnt=\count127
-\MPscratchDim=\dimen172
-\MPnumerator=\count128
-\makeMPintoPDFobject=\count129
+\MPscratchCnt=\count131
+\MPscratchDim=\dimen174
+\MPnumerator=\count132
+\makeMPintoPDFobject=\count133
 \everyMPtoPDFconversion=\toks31
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -752,7 +770,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count130
+\c@section@level=\count134
 )
 LaTeX Info: Redefining \ref on input line 43.
 LaTeX Info: Redefining \pageref on input line 43.
@@ -765,78 +783,84 @@ LaTeX Info: Redefining \nameref on input line 43.
 <krenik-matthew-climb.jpeg, id=7, 639.38875pt x 639.38875pt>
 File: krenik-matthew-climb.jpeg Graphic file (type jpg)
 <use krenik-matthew-climb.jpeg>
-Package pdftex.def Info: krenik-matthew-climb.jpeg  used on input line 82.
+Package pdftex.def Info: krenik-matthew-climb.jpeg  used on input line 83.
 (pdftex.def)             Requested size: 170.71652pt x 170.71527pt.
 LaTeX Font Info:    Font shape `T1/ClearSans-LF/m/n' will be
-(Font)              scaled to size 24.88pt on input line 82.
+(Font)              scaled to size 24.88pt on input line 83.
 LaTeX Font Info:    Font shape `T1/ClearSans-LF/m/n' will be
-(Font)              scaled to size 14.4pt on input line 82.
+(Font)              scaled to size 14.4pt on input line 83.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 82.
+(Font)              <7> on input line 83.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 82.
+(Font)              <5> on input line 83.
 
 
 LaTeX Font Warning: Font shape `T1/ClearSans-LF/m/sc' undefined
-(Font)              using `T1/ClearSans-LF/m/n' instead on input line 82.
+(Font)              using `T1/ClearSans-LF/m/n' instead on input line 83.
 
 LaTeX Font Info:    Font shape `T1/ClearSans-LF/m/sc' will be
-(Font)              scaled to size 14.4pt on input line 82.
-LaTeX Font Info:    Try loading font information for U+mvs on input line 82.
+(Font)              scaled to size 14.4pt on input line 83.
+LaTeX Font Info:    Try loading font information for U+mvs on input line 83.
 (/usr/share/texlive/texmf-dist/tex/latex/marvosym/umvs.fd)
-Overfull \hbox (4.3538pt too wide) in paragraph at lines 82--82
+Overfull \hbox (4.3538pt too wide) in paragraph at lines 83--83
 [][]| 
  []
 
 LaTeX Font Info:    Font shape `T1/ClearSans-LF/m/sc' will be
-(Font)              scaled to size 10.0pt on input line 82.
+(Font)              scaled to size 10.0pt on input line 83.
+LaTeX Font Info:    Try loading font information for U+ifsym on input line 83.
+(/usr/share/texlive/texmf-dist/tex/latex/ifsym/uifsym.fd)
 
-Overfull \hbox (3.5164pt too wide) in paragraph at lines 82--82
+LaTeX Font Warning: Font shape `U/ifsym/m/sc' undefined
+(Font)              using `U/ifsym/m/n' instead on input line 83.
+
+
+Overfull \hbox (6.22441pt too wide) in paragraph at lines 83--83
 [][]| 
  []
 
 
-Overfull \hbox (3.29912pt too wide) in paragraph at lines 82--82
+Overfull \hbox (3.29912pt too wide) in paragraph at lines 83--83
 [][]| 
  []
 
 
-Overfull \hbox (4.85674pt too wide) in paragraph at lines 82--82
+Overfull \hbox (4.85674pt too wide) in paragraph at lines 83--83
 [][]| 
  []
 
 LaTeX Font Info:    Font shape `T1/ClearSans-LF/m/sc' will be
-(Font)              scaled to size 12.0pt on input line 82.
+(Font)              scaled to size 12.0pt on input line 83.
 
-Overfull \hbox (4.0501pt too wide) in paragraph at lines 82--82
+Overfull \hbox (4.0501pt too wide) in paragraph at lines 83--83
 [][]| 
  []
 
 LaTeX Font Info:    Font shape `T1/ClearSans-LF/m/n' will be
-(Font)              scaled to size 20.74pt on input line 82.
+(Font)              scaled to size 20.74pt on input line 83.
 LaTeX Font Info:    Font shape `T1/ClearSans-LF/b/n' will be
-(Font)              scaled to size 10.0pt on input line 82.
+(Font)              scaled to size 10.0pt on input line 83.
 LaTeX Font Info:    Font shape `T1/ClearSans-LF/m/it' will be
-(Font)              scaled to size 10.0pt on input line 82.
+(Font)              scaled to size 10.0pt on input line 83.
 LaTeX Font Info:    Font shape `T1/ClearSans-LF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 100.
+(Font)              scaled to size 8.0pt on input line 111.
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--105
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 113--128
+Underfull \hbox (badness 10000) in paragraph at lines 105--123
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 170--175
+Underfull \hbox (badness 10000) in paragraph at lines 162--168
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 183--192
+Underfull \hbox (badness 10000) in paragraph at lines 177--182
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 190--199
 
  []
 
@@ -844,11 +868,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 183--192
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./krenik-matthew-climb.jpe
 g>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 215.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 215.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 224.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 224.
  (./template.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 215.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 215.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 224.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 224.
 Package rerunfilecheck Info: File `template.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -857,22 +881,23 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 17275 strings out of 492982
- 320827 string characters out of 6134895
- 389474 words of memory out of 5000000
- 20532 multiletter control sequences out of 15000+600000
- 51162 words of font info for 32 fonts, out of 8000000 for 9000
+ 17532 strings out of 492982
+ 324270 string characters out of 6134895
+ 390721 words of memory out of 5000000
+ 20778 multiletter control sequences out of 15000+600000
+ 50942 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,16n,56p,798b,803s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/clearsans/clr_er7w2x.enc}</usr
+ 62i,16n,56p,798b,805s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/clearsans/clr_er7w2x.enc} </ho
+me/matt/.texlive2017/texmf-var/fonts/pk/ljfour/public/ifsym/ifsym10.864pk></usr
 /share/texlive/texmf-dist/fonts/type1/intel/clearsans/ClearSans-Bold.pfb></usr/
 share/texlive/texmf-dist/fonts/type1/intel/clearsans/ClearSans-Italic.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/intel/clearsans/ClearSans-Regular.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on template.pdf (1 page, 248475 bytes).
+Output written on template.pdf (1 page, 248569 bytes).
 PDF statistics:
- 36 PDF objects out of 1000 (max. 8388607)
- 27 compressed objects within 1 object stream
+ 41 PDF objects out of 1000 (max. 8388607)
+ 31 compressed objects within 1 object stream
  2 named destinations out of 1000 (max. 500000)
  18 words of extra memory for PDF output out of 10000 (max. 10000000)
 

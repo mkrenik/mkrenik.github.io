@@ -12,7 +12,7 @@ m-krenik@hotmail.com
 
 ***
 
-## Overview
+<!-- ## Overview
 
 ***
 
@@ -20,9 +20,9 @@ m-krenik@hotmail.com
 
 I am a recent Master's recipient from ETH Zurich with strong experience in hardware and software development and a theoretical background in data science and control systems. I'm passionate about designing innovative products at the intersection of hardware and software. In my free time, I enjoy playing jazz piano, basketball, mountain biking, hiking, rock climbing, and skiing.  
 
-<br>
+<br> 
 
-***
+*** -->
 
 ## Education
 
@@ -39,7 +39,7 @@ I am a recent Master's recipient from ETH Zurich with strong experience in hardw
 Graduated with highest distinction  
 GPA: 5.76 / 6.0  
 Thesis: Automated Sleep Support Design and Analysis  
-*For Reference, ETH Zurich is ranked #9 worldwide by Times Higher Education*  
+*For Reference, ETH Zurich is ranked #7 worldwide by QS World Univ. Rankings*  
 
 <br>
 
@@ -87,9 +87,22 @@ Ranked #2 in class of 620 students at end of Sophomore year
 
 <br>
 
+### Popspots --- Sr. Embedded Engineer and Hardware Lead
+
+#### June 2018 to Present
+
+##### Austin, Texas, USA 
+
+  Project managed two new HW products from start to finish. Initiated contact, vetted, and managed relationships with all hardware suppliers and manufacturers. Developed all Product Requirements and Manufacturing Requirements documents (PRD & MRD).  Reviewed all ME/EE designs and brought ownership of these designs into the company. Supervised the new product introduction (NPI) and mass production (MP) builds. 
+
+  Also responsible for all embedded software (kernel, bootloader, and buildroot for custom Linux hardware, embedded C++ application, Android firmware debuging, and Android application) and IoT infrastructure. Reduced provision time by 85% and increased reliability by 50%. 
+
+<br>
+
+
 ### iRobot Corporation --- Associate Software Engineer
 
-#### February 2017 to Present
+#### February 2017 to June 2018
 
 ##### Bedford, Massachusetts, USA 
 
@@ -317,21 +330,15 @@ Stipend, travel and living expenses for summer research experiences at various i
 
 <br>
 
-**Computer Skills**  
-
-Developer Tools: Linux Environment, Terminal, VIM, Git  
-
-Software: MS Office Suite (Word, Powerpoint, Excel, OneNote), Gimp, Open Office  
-
-<br>
-
-**Programming Languages**  
+**Software**  
 
 Advanced: C, C++  
 
-Proficiency: MATLAB, Simulink, Java, C# (Unity 3D)  
+Proficiency: Android, OpenCV, Javascript, MATLAB, Simulink, Java,   
 
-Familiarity: Python, Bash, HTML, CSS, Javascript, LaTeX, Assembly  
+Familiarity: Python, C#, MATLAB, HTML, CSS, LaTeX, Assembly  
+
+Developer Tools: Linux environments, Vim, Git, Jenkins, Agile 
 
 <br>
 
@@ -347,17 +354,13 @@ Familiarity: OpenCV, OpenGL, TensorFlow, h2o, Bootstrap, Hugo
 
 **Electrical**  
 
-Proficiency: MCUs, Application design, Bus protocols (I2C, SPI, UART), EDA Tools (OrCAD, Altium)  
-
-Familiarity: Power electronics, Integrated circuit design, Digital Signal Processing, Verilog, FPGAs  
+  Microcontrollers, Analog / Digital circuit design, Motor control, EDA Tools (KiCAD, Altium), Soldering  
 
 <br>
 
 **Mechanical**  
 
-Proficiency: 3D modeling (Solidworks, Blender), Wood shop equipment  
-
-Familiarity: Finite Element Modeling (COMSOL), MIG Welding, Metal shop equipment  
+  3D modeling (Solidworks), MIG welding, Wood and metal shop equipment
 
 <br>
 
@@ -477,10 +480,6 @@ National Conference. San Diego, CA, 2012.
 ## Projects
 
 ***
-
-<br>
-
-*See more details and more projects on my [website][] or my [Github profile][] *
 
 <br>
 

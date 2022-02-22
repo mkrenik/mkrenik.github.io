@@ -322,47 +322,6 @@ Stipend, travel and living expenses for summer research experiences at various i
 
 <br>
 
-***
-
-## Skills
-
-***
-
-<br>
-
-**Software**  
-
-Advanced: C, C++  
-
-Proficiency: Android, OpenCV, Javascript, MATLAB, Simulink, Java,   
-
-Familiarity: Python, C#, MATLAB, HTML, CSS, LaTeX, Assembly  
-
-Developer Tools: Linux environments, Vim, Git, Jenkins, Agile 
-
-<br>
-
-<!---
-
-**Libraries and Frameworks**  
-
-Familiarity: OpenCV, OpenGL, TensorFlow, h2o, Bootstrap, Hugo
-
-<br>
-
---->
-
-**Electrical**  
-
-  Microcontrollers, Analog / Digital circuit design, Motor control, EDA Tools (KiCAD, Altium), Soldering  
-
-<br>
-
-**Mechanical**  
-
-  3D modeling (Solidworks), MIG welding, Wood and metal shop equipment
-
-<br>
 
 ***
 

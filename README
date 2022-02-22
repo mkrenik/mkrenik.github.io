@@ -8,6 +8,7 @@ To get this website online, use 'git push' and it will add the files to the gith
 Resume
 1. Resume is currently done with LaTeX. Make desired changes, then use pdflatex command to build it. Look at the changes using evince. 
 2. Once changes look good, go through the steps on how to build the website.
+3. Note that if setting up on a new computer, you will need to install latex. Use `sudo apt install texlive-latex-extra`. Fonts may be missing. 
 
 CV
 1. CV is currently done in Markdown and is converted into HTML. Make the desired changes and then type in 'make' to build them into the HTML. View the changes with firefox. 

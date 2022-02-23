@@ -39,7 +39,7 @@ I am a recent Master's recipient from ETH Zurich with strong experience in hardw
 Graduated with highest distinction  
 GPA: 5.76 / 6.0  
 Thesis: Automated Sleep Support Design and Analysis  
-*For Reference, ETH Zurich is ranked #7 worldwide by QS World Univ. Rankings*  
+*For Reference, ETH Zurich is ranked #8 worldwide by QS World Univ. Rankings*  
 
 <br>
 
@@ -100,7 +100,7 @@ Ranked #2 in class of 620 students at end of Sophomore year
 <br>
 
 
-### iRobot Corporation --- Associate Software Engineer
+### iRobot Corporation --- Robotics Software Engineer
 
 #### February 2017 to June 2018
 

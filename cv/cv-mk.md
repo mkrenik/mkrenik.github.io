@@ -87,9 +87,19 @@ Ranked #2 in class of 620 students at end of Sophomore year
 
 <br>
 
+### Apptronik --- Robotics Software Engineer 
+
+#### October 2022 to Present
+
+##### Austin, Texas, USA 
+
+  Working on a humanoid robot. More details to come!  
+
+<br>
+
 ### Popspots --- Sr. Embedded Engineer and Hardware Lead
 
-#### June 2018 to Present
+#### June 2018 to July 2022
 
 ##### Austin, Texas, USA 
 

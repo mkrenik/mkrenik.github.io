@@ -1,1 +1,1 @@
-The CV is a generated HTML file that takes text from a markdown file. Edit the text as necessary and then run 'make' in the root directory. The make command runs 'pandoc' command to generate a .html file (other files are created for other formats, but they are removed. 
+The CV is a generated HTML file that takes text from a markdown file. Edit the text as necessary and then run 'make' in the root directory. The make command runs 'pandoc' command to generate a .html file (other files are created for other formats, but they are removed.) 

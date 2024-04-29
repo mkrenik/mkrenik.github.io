@@ -2,7 +2,6 @@
 
 # Matthew W. Krenik
 
-(+1) 469-878-5174  
 m-krenik@hotmail.com  
 [mkrenik.github.io][]  
 
